@@ -1,8 +1,14 @@
 {
   "name": "thai-datetime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to give datetime in Thai",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "dist",
+    "esm",
+    "src"
+  ],
   "repository": "https://github.com/chunlaw/thai-datetime",
   "author": "Chun Law",
   "license": "MIT",
@@ -23,5 +29,13 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
-  }
+  },
+  "keywords": [
+    "thai",
+    "thailand",
+    "datetime",
+    "time",
+    "date"
+  ],
+  "homepage": "https://ink.chunlaw.io/ref/datetime"
 }
