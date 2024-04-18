@@ -1,6 +1,6 @@
 {
   "name": "thai-datetime",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package to give datetime in Thai",
   "main": "dist/index.js",
   "module": "esm/index.js",

@@ -109,13 +109,13 @@ export const getThaiShortTime = (date: Date): string => {
     if ( minute === 0 ) {
       result.push("เช้า")
     } else {
-      result.push("โมงเช้า")
+      result.push("ตอนเช้า")
     }
   } else if ( hour === 18 ) {
     if ( minute === 0 ) {
       result.push("ย็น")
     } else {
-      result.push("โมงย็น")
+      result.push("ตอนเย็น")
     }
   }
   return result.join(" ")

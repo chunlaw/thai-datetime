@@ -22,5 +22,5 @@ test("expected datetime", () => {
   expect(getThaiFullMonth(date)).toStrictEqual("ธันวาคม");
   expect(getThaiYear(date)).toStrictEqual(2534);
   expect(getThaiFullTime(date)).toStrictEqual("10 นาฬิกา 30 นาที");
-  expect(getThaiShortTime(date)).toStrictEqual("10 โมง 30 โมงเช้า");
+  expect(getThaiShortTime(date)).toStrictEqual("10 โมง 30 ตอนเช้า");
 })
