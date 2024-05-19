@@ -1,6 +1,6 @@
 {
   "name": "thai-datetime",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package to give datetime in Thai",
   "main": "dist/index.js",
   "module": "esm/index.js",
@@ -22,7 +22,7 @@
     "build": "yarn build:cjs && yarn build:esm",
     "prepublish": "yarn build"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
     "rimraf": "^5.0.5",
